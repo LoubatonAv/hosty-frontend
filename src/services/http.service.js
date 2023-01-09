@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-const BASE_URL = process.env.NODE_ENV === 'production' ? 'https://hosty-backend.onrender.com' : '//localhost:3030/api/';
+const BASE_URL = process.env.NODE_ENV === 'production' ? '//hosty-backend.onrender.com' : '//localhost:3030/api/';
 
 //http service
 var axios = Axios.create({
